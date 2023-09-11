@@ -1,0 +1,95 @@
+header{
+    background-color: rgb(109, 158, 221);
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#logo{
+    width: 100px;
+    border-radius: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid white;
+    padding: 10px;
+    border-radius: 30px;
+}
+footer{
+    background-color:rgb(109, 158, 221);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 98.35%;
+
+}
+#Foot{
+    color: white;
+}
+#events{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+
+ }
+ .event-cards{
+    text-align: center;
+    box-shadow: 0 6px 14px  rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+
+
+ }
+ #det{
+    
+    text-decoration: none;
+    border: 1.5px solid rgb(109, 158, 221);
+    background-color: rgb(109, 158, 221);
+    padding: 5px;
+    border-radius: 20px;
+    
+ }
+
+ .lorem{
+    text-align: center;
+    box-shadow: 0 6px 14px  rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+#abc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    bottom: 20%;
+}
+.frm{
+    background-color: rgb(109, 158, 221);
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 30px;
+    justify-content: center;
+
+}
+#app{
+    background-color: white;
+    width: 40%;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
